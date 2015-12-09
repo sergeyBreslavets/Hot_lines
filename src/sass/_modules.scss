@@ -1,0 +1,105 @@
+body{
+margin: 0;
+padding: 0;
+
+}
+.menu_top{
+        height: 50px;
+        background: #2d4059;
+        color: #ffffff;
+        padding-top: 5px;
+       .module_menu__menu_top__items{
+          font-family: 'Lato';
+          font-weight: 400;
+          font-style: normal;
+          font-size: 15px;
+       }
+
+    }
+.module_menu{
+    
+    
+    .module_menu__main_menu{
+       height: 150px;
+    }
+}
+.navbar-brand-custom{
+    padding-left:100px;
+}
+.navbar-nav-custom{
+    margin-left: 300px;
+}
+
+.slider{
+    height: 850px;
+    border: 1px solid #000;
+}
+.red_section{
+    height: 379px;
+    background: url(../images/red_phone.jpg) no-repeat; 
+    .red_section__title{
+        margin-top: 50px;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Lato';
+        font-weight: 200;
+        font-style: normal;
+        font-size: 50px;
+        color: #fff;
+    }
+    .red_section__sub_text{
+           margin-top: 50px;
+           margin-bottom: 15px;
+           padding-left: 60px;
+           padding-right:60px;
+           font-family: 'Lato';
+           font-weight: 400;
+           font-style: normal;
+           font-size: 15px;
+           color: #fff;
+    } 
+    .red_section__btn_blue{
+        margin-top: 40px;
+        background: #2771b2;
+        border-radius: 3px;
+        border: 1px solid #fff;
+        text-transform: uppercase;
+        font-size: 14px;
+        padding: 20px 20px;
+        text-align: center;
+        color: #fff;
+        &:hover{
+            text-decoration: none;
+        }
+    }
+    .call_back{
+
+    }
+}
+.service{
+height: 435px;
+.service__title{
+        margin-top: 50px;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Lato';
+        font-weight: 200;
+        font-style: normal;
+        font-size: 50px;
+        color: #e03636;
+}
+.block_item{
+           display: inline-block;
+           margin-left: 60px;
+           text-align: center;
+
+       span{
+
+          display: block;
+          font-family: 'Lato';
+          font-weight: 400;
+          font-style: normal;
+          font-size: 12px;
+       }
+}
+}
