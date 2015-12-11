@@ -1,0 +1,45 @@
+.menu_top {
+    background: #2d4059;
+    color: #ffffff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    .module_menu__menu_top__items {
+        font-family: 'Lato';
+        font-weight: 400;
+        font-style: normal;
+        font-size: 13px;
+        span {
+            margin-left: 12px;
+        }
+    }
+}
+
+.menu{
+    min-height: 150px;
+ 
+    .navbar-collapse-custom{
+    .navbar-nav-custom {
+        margin-top: 50px;
+        li {   
+          // background: transparent;
+          // &:hover{
+          // background: transparent;
+          // }
+            a {
+                font-family: 'Lato';
+                font-weight: 400;
+                font-style: normal;
+                font-size: 16px;
+                color: #2d4059;
+                &:hover, &:focus{
+                  color: #e03636;
+                  background: transparent;
+                }
+            }
+        }
+    }}
+}
+
+.mrl-70 {
+    margin-left: 70px;
+}

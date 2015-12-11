@@ -21,22 +21,23 @@ var imgSrc         = './src/images/**/*';
 var sourcesjs      =  [     
                            'bower_components/modernizr/modernizr.js',
                            'bower_components/jquery/dist/jquery.js',
-                            
+                            'bower_components/dropdown.js',
+                         
                             'bower_components/bootstrap-sass/assets/javascripts/bootstrap/transition.js',
                             'bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js',
                             'bower_components/bootstrap-sass/assets/javascripts/bootstrap/button.js',
                             'bower_components/bootstrap-sass/assets/javascripts/bootstrap/carousel.js',
                             'bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js',
-                            'bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js',
+                            
                             'bower_components/bootstrap-sass/assets/javascripts/bootstrap/modal.js',
                             'bower_components/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js',
                             'bower_components/bootstrap-sass/assets/javascripts/bootstrap/popover.js',
                             'bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js',
                             'bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js',
                             'bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js',
-                            
-                            'bower_components/waterwheelcarousel/js/jquery.waterwheelCarousel.js',
-
+                            // 'bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js',
+                           // 'bower_components/waterwheelcarousel/js/jquery.waterwheelCarousel.js',
+                              
                            './src/scripts/*.js'
 
                             //'bower_components/OwlCarousel/owl-carousel/owl.carousel.js',
@@ -142,8 +143,8 @@ gulp.task('htmlpage', function() {
 gulp.task('scripts', function() {
    gulp.src(sourcesjs)
         .pipe(concat('script.js'))
-        .pipe(stripDebug())
-        .pipe(uglify())
+        // .pipe(stripDebug())
+        // .pipe(uglify())
 
     .pipe(gulp.dest(pathjstarget))
     .pipe(notify({
@@ -152,18 +153,18 @@ gulp.task('scripts', function() {
     }));
 });
 
-gulp.task('debjs', function() {
-   gulp.src(sourcesjs)
-        .pipe(concat('script.js'))
-        .pipe(stripDebug())
-       // .pipe(uglify())
+// gulp.task('debjs', function() {
+//    gulp.src(sourcesjs)
+//         .pipe(concat('script.js'))
+//         .pipe(stripDebug())
+//        // .pipe(uglify())
 
-    .pipe(gulp.dest(pathjstarget))
-    .pipe(notify({
-            title: 'scripts',
-            message: 'scripts-complete the work!'
-    }));
-});
+//     .pipe(gulp.dest(pathjstarget))
+//     .pipe(notify({
+//             title: 'scripts',
+//             message: 'scripts-complete the work!'
+//     }));
+// });
 // CSS concat, auto-prefix and minify
 gulp.task('styles', function() {
     gulp.src(['./src/styles/*.css'])

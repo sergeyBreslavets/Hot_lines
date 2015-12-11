@@ -3,39 +3,47 @@ margin: 0;
 padding: 0;
 
 }
-.menu_top{
-        height: 50px;
-        background: #2d4059;
-        color: #ffffff;
-        padding-top: 5px;
-       .module_menu__menu_top__items{
-          font-family: 'Lato';
-          font-weight: 400;
-          font-style: normal;
-          font-size: 15px;
-       }
 
-    }
-.module_menu{
-    
-    
-    .module_menu__main_menu{
-       height: 150px;
-    }
-}
-.navbar-brand-custom{
-    padding-left:100px;
-}
-.navbar-nav-custom{
-    margin-left: 300px;
-}
+
 
 .slider{
-    height: 850px;
-    border: 1px solid #000;
+   
+    .slider__control{
+      padding-top: 20%;
+       background-image: none !important;
+    }
+    .slider__caption{
+      top: 40px;
+       
+      .slider__caption__title{
+         color: #2771b2;
+         text-transform: uppercase;
+         font-family: 'Lato';
+        font-weight: 200;
+        font-style: normal;
+        font-size: 100px;
+      }
+
+      .slider__caption__number{
+        color: #e03636;
+        font-family: 'Lato';
+        font-weight: 200;
+        font-style: normal;
+        font-size: 100px;
+      }
+      .slider__caption__subtext{
+         font-family: 'Lato';
+          font-weight: 400;
+          font-style: normal;
+          font-size: 50px;
+          color: #2771b2;
+      }
+
+    }
 }
+
 .red_section{
-    height: 379px;
+    // height: 379px;
     background: url(../images/red_phone.jpg) no-repeat; 
     .red_section__title{
         margin-top: 50px;
@@ -77,7 +85,8 @@ padding: 0;
     }
 }
 .service{
-height: 435px;
+// height: 435px;
+padding-bottom: 67px;
 .service__title{
         margin-top: 50px;
         text-align: center;
@@ -88,13 +97,22 @@ height: 435px;
         font-size: 50px;
         color: #e03636;
 }
-.block_item{
+.service__carousel{
+    margin-top: 67px;
+    margin-bottom: 50px;
+
+    .service__carousel__carousel-control{
+          background-image: none !important;
+          padding-top: 20px;
+    }
+}
+.block_item{ 
            display: inline-block;
            margin-left: 60px;
            text-align: center;
 
        span{
-
+          margin-top: 65px;
           display: block;
           font-family: 'Lato';
           font-weight: 400;
@@ -102,4 +120,121 @@ height: 435px;
           font-size: 12px;
        }
 }
+}
+.our_advantages{
+    .our_advantages__title{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Lato';
+        font-weight: 200;
+        font-style: normal;
+        font-size: 50px;
+        color: #e03636;
+    }
+    .our_advantages__block_img{
+        position: relative;
+        overflow: hidden;
+        height: 300px; 
+        img{
+          float: right;
+        }
+        span{
+            position: absolute;
+            z-index: 5;
+            top: 100px;
+            left: 100px;
+          font-family: 'Lato';
+          font-weight: 400;
+          font-style: normal;
+          font-size: 20px;
+
+        }
+      
+
+        
+        }
+      
+    
+
+}
+.client{
+
+.client__title{
+        margin-top: 50px;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Lato';
+        font-weight: 200;
+        font-style: normal;
+        font-size: 50px;
+        color: #e03636;
+}
+.client__carousel{
+    margin-top: 67px;
+    margin-bottom: 50px;
+
+    .client__carousel__carousel-control{
+          background-image: none !important;
+          padding-top: 20px;
+    }
+}
+.block_item{
+           display: inline-block;
+           margin-left: 20px;
+           text-align: center;
+
+} 
+}
+.form{
+    background: url(../images/back_form.jpg) no-repeat; 
+    .form__title{
+         margin-top: 50px;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Lato';
+        font-weight: 200;
+        font-style: normal;
+        font-size: 50px;
+        color: #ffffff;
+    }
+    form{
+        label {
+          margin-top:20px;
+          font-family: 'Lato';
+          font-weight: 400;
+          font-style: normal;
+          color: #fff;
+      
+        font-size: 14px;
+        }
+        input{
+           margin-top: 10px;
+           padding: 25px 17px;
+
+        }
+    }
+.form__btn{
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+}
+.btn_blue{
+
+        background: #2771b2;
+        border-radius: 3px;
+        border: 1px solid #fff;
+        text-transform: uppercase;
+        font-family: 'Lato';
+        font-weight: 400;
+        font-style: normal;
+      
+        font-size: 14px;
+        padding: 20px 20px;
+        text-align: center;
+        color: #fff;
+        &:hover{
+            text-decoration: none;
+        }
 }
