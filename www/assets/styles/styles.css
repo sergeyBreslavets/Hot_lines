@@ -8257,23 +8257,27 @@ body {
     font-style: normal;
     font-size: 50px;
     color: #e03636; }
-  .service .service__carousel {
-    margin-top: 67px;
-    margin-bottom: 50px; }
-    .service .service__carousel .service__carousel__carousel-control {
-      background-image: none !important;
-      padding-top: 20px; }
-  .service .block_item {
-    display: inline-block;
-    margin-left: 60px;
-    text-align: center; }
-    .service .block_item span {
-      margin-top: 65px;
-      display: block;
-      font-family: 'Lato';
-      font-weight: 400;
-      font-style: normal;
-      font-size: 12px; }
+  .service .service__carusel {
+    margin-top: 50px; }
+    .service .service__carusel .service__carusel__control-left {
+      display: inline;
+      cursor: pointer; }
+    .service .service__carusel .service__carusel__control-right {
+      display: inline;
+      cursor: pointer; }
+    .service .service__carusel .block_item {
+      display: inline-block;
+      margin-left: 30px;
+      text-align: center; }
+      .service .service__carusel .block_item span {
+        margin-top: 65px;
+        display: block;
+        font-family: 'Lato';
+        font-weight: 400;
+        font-style: normal;
+        font-size: 12px; }
+    .service .service__carusel .slick-slide img {
+      display: inline; }
 
 .our_advantages .our_advantages__title {
   margin-top: 50px;
@@ -8312,17 +8316,20 @@ body {
   font-size: 50px;
   color: #e03636; }
 
-.client .client__carusel .client__carusel__control-left {
-  display: inline; }
-
-.client .client__carusel .your-class {
-  display: inline; }
-
-.client .client__carusel .block_item {
-  display: inline-block;
-  margin-left: 20px;
-  text-align: center;
-  height: 150px; }
+.client .client__carusel {
+  margin-top: 50px;
+  overflow: hidden; }
+  .client .client__carusel .client__carusel__control-left {
+    display: inline;
+    cursor: pointer; }
+  .client .client__carusel .client__carusel__control-right {
+    display: inline;
+    cursor: pointer; }
+  .client .client__carusel .block_item {
+    display: inline-block;
+    margin-left: 20px;
+    text-align: center;
+    height: 150px; }
 
 .form {
   background: url(../images/back_form.jpg) no-repeat; }

@@ -166,17 +166,21 @@ body {
         font-size: 50px;
         color: #e03636;
     }
-    .service__carousel {
-        margin-top: 67px;
-        margin-bottom: 50px;
-        .service__carousel__carousel-control {
-            background-image: none !important;
-            padding-top: 20px;
-        }
-    }
-    .block_item {
+    
+    
+    .service__carusel{
+      margin-top: 50px;
+         .service__carusel__control-left{
+  display: inline;
+         cursor: pointer;
+         }
+         .service__carusel__control-right{
+            display: inline;
+         cursor: pointer;
+         }
+       .block_item {
         display: inline-block;
-        margin-left: 60px;
+        margin-left: 30px;
         text-align: center;
         span {
             margin-top: 65px;
@@ -186,7 +190,14 @@ body {
             font-style: normal;
             font-size: 12px;
         }
+    } 
+    .slick-slide img {
+   display: inline; 
+} 
     }
+
+
+
 }
 
 .our_advantages {
@@ -233,16 +244,17 @@ body {
         color: #e03636;
     }
     .client__carusel {
+      margin-top: 50px;
+      overflow: hidden;
         .client__carusel__control-left {
-        position 
-         
+        display: inline;
+         cursor: pointer;
         }
         .client__carusel__control-right {
-         
+         display: inline;
+         cursor: pointer;
         }
-        .your-class{
-          
-        }
+       
             .block_item {
                 display: inline-block;
                 margin-left: 20px;
