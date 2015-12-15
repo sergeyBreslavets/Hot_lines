@@ -38,6 +38,7 @@ body {
             color: #2771b2;
         }
     }
+    .btn_slider {}
     @media (min-width: $screen-xs-min) {
         .slider__caption__title {
             font-size: 30px;
@@ -48,8 +49,8 @@ body {
         .slider__caption__subtext {
             font-size: 20px;
         }
-        .mrt-70 {
-            margin-top: 40px;
+        .btn_slider {
+            margin-top: 10px !important;
         }
     }
     @media (min-width: $screen-sm-min) {
@@ -62,8 +63,8 @@ body {
         .slider__caption__subtext {
             font-size: 20px;
         }
-        .mrt-70 {
-            margin-top: 70px;
+        .btn_slider {
+            margin-top: 20px !important;
         }
     }
     @media (min-width: $screen-md-min) {
@@ -76,8 +77,8 @@ body {
         .slider__caption__subtext {
             font-size: 50px;
         }
-        .mrt-70 {
-            margin-top: 70px;
+        .btn_slider {
+            margin-top: 70px !important;
         }
     }
     @media (min-width: $screen-lg-min) {
@@ -90,8 +91,8 @@ body {
         .slider__caption__subtext {
             font-size: 50px;
         }
-        .mrt-70 {
-            margin-top: 70px;
+        .btn_slider {
+            margin-top: 70px !important;
         }
     }
 }
@@ -100,7 +101,6 @@ body {
     // height: 379px;
     background: url(../images/red_phone.jpg) no-repeat;
     .red_section__title {
-        margin-top: 50px;
         text-align: center;
         text-transform: uppercase;
         font-family: 'Lato';
@@ -108,7 +108,7 @@ body {
         font-style: normal;
         color: #fff;
         @media (min-width: $screen-xs-min) {
-            margin-top: 25px;
+            margin-top: 15px;
             font-size: 35px;
         }
         @media (min-width: $screen-sm-min) {
@@ -125,15 +125,35 @@ body {
         }
     }
     .red_section__sub_text {
-        margin-top: 50px;
-        margin-bottom: 15px;
-        padding-left: 60px;
-        padding-right: 60px;
         font-family: 'Lato';
         font-weight: 400;
         font-style: normal;
         font-size: 15px;
         color: #fff;
+        @media (min-width: $screen-xs-min) {
+            margin-top: 15px;
+            margin-bottom: 5px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        @media (min-width: $screen-sm-min) {
+            margin-top: 25px;
+            margin-bottom: 15px;
+            padding-left: 60px;
+            padding-right: 60px;
+        }
+        @media (min-width: $screen-md-min) {
+            margin-top: 50px;
+            margin-bottom: 15px;
+            padding-left: 60px;
+            padding-right: 60px;
+        }
+        @media (min-width: $screen-lg-min) {
+            margin-top: 50px;
+            margin-bottom: 15px;
+            padding-left: 60px;
+            padding-right: 60px;
+        }
     }
     .red_section__btn_blue {
         margin-bottom: 50px;
@@ -150,7 +170,9 @@ body {
             text-decoration: none;
         }
     }
-    .call_back {}
+    .call_back {
+        width: 100%;
+    }
 }
 
 .service {
@@ -166,38 +188,36 @@ body {
         font-size: 50px;
         color: #e03636;
     }
-    
-    
-    .service__carusel{
-      margin-top: 50px;
-         .service__carusel__control-left{
-  display: inline;
-         cursor: pointer;
-         }
-         .service__carusel__control-right{
+    .service__carusel {
+        margin-top: 50px;
+        margin-bottom: 30px;
+        .service__carusel__control-left {
             display: inline;
-         cursor: pointer;
-         }
-       .block_item {
-        display: inline-block;
-        margin-left: 30px;
-        text-align: center;
-        span {
-            margin-top: 65px;
-            display: block;
-            font-family: 'Lato';
-            font-weight: 400;
-            font-style: normal;
-            font-size: 12px;
+            cursor: pointer;
+            
         }
-    } 
-    .slick-slide img {
-   display: inline; 
-} 
+        .service__carusel__control-right {
+            display: inline;
+            cursor: pointer;
+            float: right; 
+        }
+        .block_item {
+            display: inline-block;
+            margin-left: 30px;
+            text-align: center;
+            span {
+                margin-top: 65px;
+                display: block;
+                font-family: 'Lato';
+                font-weight: 400;
+                font-style: normal;
+                font-size: 12px;
+            }
+        }
+        .slick-slide img {
+            display: inline;
+        }
     }
-
-
-
 }
 
 .our_advantages {
@@ -244,38 +264,53 @@ body {
         color: #e03636;
     }
     .client__carusel {
-      margin-top: 50px;
-      overflow: hidden;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        overflow: hidden;
         .client__carusel__control-left {
-        display: inline;
-         cursor: pointer;
+            display: inline;
+            cursor: pointer;
         }
         .client__carusel__control-right {
-         display: inline;
-         cursor: pointer;
+            display: inline;
+            cursor: pointer;
+            float: right;
         }
-       
-            .block_item {
-                display: inline-block;
-                margin-left: 20px;
-                text-align: center;
-                height: 150px;
-            }
-        
+        .block_item {
+            display: inline-block;
+            margin-left: 20px;
+            text-align: center;
+            height: 150px;
+        }
     }
 }
 
 .form {
     background: url(../images/back_form.jpg) no-repeat;
+    overflow: hidden;
     .form__title {
-        margin-top: 50px;
         text-align: center;
         text-transform: uppercase;
         font-family: 'Lato';
         font-weight: 200;
         font-style: normal;
-        font-size: 50px;
         color: #ffffff;
+        @media (min-width: $screen-xs-min) {
+            margin-top: 15px;
+            font-size: 35px;
+        }
+        @media (min-width: $screen-sm-min) {
+            margin-top: 50px;
+            font-size: 50px;
+        }
+        @media (min-width: $screen-md-min) {
+            margin-top: 50px;
+            font-size: 50px;
+        }
+        @media (min-width: $screen-lg-min) {
+            margin-top: 50px;
+            font-size: 50px;
+        }
     }
     form {
         label {

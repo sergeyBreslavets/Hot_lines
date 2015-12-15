@@ -8163,8 +8163,8 @@ body {
     font-size: 30px; }
   .slider .slider__caption__subtext {
     font-size: 20px; }
-  .slider .mrt-70 {
-    margin-top: 40px; } }
+  .slider .btn_slider {
+    margin-top: 10px !important; } }
 
 @media (min-width: 768px) {
   .slider .slider__caption__title {
@@ -8173,8 +8173,8 @@ body {
     font-size: 40px; }
   .slider .slider__caption__subtext {
     font-size: 20px; }
-  .slider .mrt-70 {
-    margin-top: 70px; } }
+  .slider .btn_slider {
+    margin-top: 20px !important; } }
 
 @media (min-width: 992px) {
   .slider .slider__caption__title {
@@ -8183,8 +8183,8 @@ body {
     font-size: 100px; }
   .slider .slider__caption__subtext {
     font-size: 50px; }
-  .slider .mrt-70 {
-    margin-top: 70px; } }
+  .slider .btn_slider {
+    margin-top: 70px !important; } }
 
 @media (min-width: 1200px) {
   .slider .slider__caption__title {
@@ -8193,13 +8193,12 @@ body {
     font-size: 100px; }
   .slider .slider__caption__subtext {
     font-size: 50px; }
-  .slider .mrt-70 {
-    margin-top: 70px; } }
+  .slider .btn_slider {
+    margin-top: 70px !important; } }
 
 .red_section {
   background: url(../images/red_phone.jpg) no-repeat; }
   .red_section .red_section__title {
-    margin-top: 50px;
     text-align: center;
     text-transform: uppercase;
     font-family: 'Lato';
@@ -8208,7 +8207,7 @@ body {
     color: #fff; }
     @media (min-width: 480px) {
       .red_section .red_section__title {
-        margin-top: 25px;
+        margin-top: 15px;
         font-size: 35px; } }
     @media (min-width: 768px) {
       .red_section .red_section__title {
@@ -8223,15 +8222,35 @@ body {
         margin-top: 50px;
         font-size: 50px; } }
   .red_section .red_section__sub_text {
-    margin-top: 50px;
-    margin-bottom: 15px;
-    padding-left: 60px;
-    padding-right: 60px;
     font-family: 'Lato';
     font-weight: 400;
     font-style: normal;
     font-size: 15px;
     color: #fff; }
+    @media (min-width: 480px) {
+      .red_section .red_section__sub_text {
+        margin-top: 15px;
+        margin-bottom: 5px;
+        padding-left: 20px;
+        padding-right: 20px; } }
+    @media (min-width: 768px) {
+      .red_section .red_section__sub_text {
+        margin-top: 25px;
+        margin-bottom: 15px;
+        padding-left: 60px;
+        padding-right: 60px; } }
+    @media (min-width: 992px) {
+      .red_section .red_section__sub_text {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        padding-left: 60px;
+        padding-right: 60px; } }
+    @media (min-width: 1200px) {
+      .red_section .red_section__sub_text {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        padding-left: 60px;
+        padding-right: 60px; } }
   .red_section .red_section__btn_blue {
     margin-bottom: 50px;
     margin-top: 40px;
@@ -8245,6 +8264,8 @@ body {
     color: #fff; }
     .red_section .red_section__btn_blue:hover {
       text-decoration: none; }
+  .red_section .call_back {
+    width: 100%; }
 
 .service {
   padding-bottom: 67px; }
@@ -8258,13 +8279,15 @@ body {
     font-size: 50px;
     color: #e03636; }
   .service .service__carusel {
-    margin-top: 50px; }
+    margin-top: 50px;
+    margin-bottom: 30px; }
     .service .service__carusel .service__carusel__control-left {
       display: inline;
       cursor: pointer; }
     .service .service__carusel .service__carusel__control-right {
       display: inline;
-      cursor: pointer; }
+      cursor: pointer;
+      float: right; }
     .service .service__carusel .block_item {
       display: inline-block;
       margin-left: 30px;
@@ -8318,13 +8341,15 @@ body {
 
 .client .client__carusel {
   margin-top: 50px;
+  margin-bottom: 30px;
   overflow: hidden; }
   .client .client__carusel .client__carusel__control-left {
     display: inline;
     cursor: pointer; }
   .client .client__carusel .client__carusel__control-right {
     display: inline;
-    cursor: pointer; }
+    cursor: pointer;
+    float: right; }
   .client .client__carusel .block_item {
     display: inline-block;
     margin-left: 20px;
@@ -8332,16 +8357,31 @@ body {
     height: 150px; }
 
 .form {
-  background: url(../images/back_form.jpg) no-repeat; }
+  background: url(../images/back_form.jpg) no-repeat;
+  overflow: hidden; }
   .form .form__title {
-    margin-top: 50px;
     text-align: center;
     text-transform: uppercase;
     font-family: 'Lato';
     font-weight: 200;
     font-style: normal;
-    font-size: 50px;
     color: #ffffff; }
+    @media (min-width: 480px) {
+      .form .form__title {
+        margin-top: 15px;
+        font-size: 35px; } }
+    @media (min-width: 768px) {
+      .form .form__title {
+        margin-top: 50px;
+        font-size: 50px; } }
+    @media (min-width: 992px) {
+      .form .form__title {
+        margin-top: 50px;
+        font-size: 50px; } }
+    @media (min-width: 1200px) {
+      .form .form__title {
+        margin-top: 50px;
+        font-size: 50px; } }
   .form form label {
     margin-top: 20px;
     font-family: 'Lato';
