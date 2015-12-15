@@ -37,7 +37,7 @@ var sourcesjs      =  [
                             'bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js',
                             // 'bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js',
                            // 'bower_components/waterwheelcarousel/js/jquery.waterwheelCarousel.js',
-                              
+                            'bower_components/slick-carousel/slick/slick.js',  
                            './src/scripts/*.js'
 
                             //'bower_components/OwlCarousel/owl-carousel/owl.carousel.js',
