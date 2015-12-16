@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hot lines</title>
-    <script src="assets/scripts/script.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/styles/styles.css">
 </head>
 
@@ -29,8 +28,8 @@
             </div>
         </div>
     </section>
-    <!-- navbar-fixed-top  -->
-    <nav class="navbar menu">
+    <!--  -->
+    <nav class="navbar navbar-fixed-top  menu">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -43,8 +42,18 @@
                 <a class="navbar-brand navbar-brand-custom" href="#"><img src="assets/images/logo_menu.png" alt=""></a>
             </div>
             <div class="collapse navbar-collapse navbar-collapse-custom" id="navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-nav-custom">
-                    <li><a href="#">О компании</a></li>
+                <ul class="nav navbar-nav navbar-nav-custom pull-left hidden-sm">
+                    
+                     <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">О компании</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Тульский филиал</a></li>
+                          
+                        </ul>
+                    </li>
+
+
+                    
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Услуги </a>
                         <ul class="dropdown-menu">
@@ -66,13 +75,34 @@
                     </li>
                     <li><a href="#">Аренда операторов</a></li>
                     <li><a href="#">Эксперты в call-центрах</a></li>
-                    <li><a href="#">Карьера</a></li>
-                    <li><a href="#">Контакты</a></li>
+                  
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Карьера</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Карьера–Москва</a></li>
+                            <li><a href="#">Карьера–Тула</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Контакты</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Контакты–Москва</a></li>
+                            <li><a href="#">Контакты–Тула</a></li>
+                        </ul>
+                    </li>
                     <li><a href="#">Услуги</a></li>
-                    <li><a href="#"><i class="fa fa-search"></i></a></li>
+                    <li><a href="#"> 
+                 <form id="demo-b" class="search">
+    <input placeholder="Поиск" type="search" > 
+</form>
+
+
+                    </li>
                 </ul>
             </div>
         </div>
+        
+
     </nav>
     <!-- end menu-->
     <!-- start slider-->
@@ -113,7 +143,8 @@
                                 <span class="slider__caption__subtext">обработки звонков <br>
               одновременно</span>
                             </div>
-                        </div><div class="row">
+                        </div>
+                        <div class="row">
                             <div class="col-md-4 col-md-offset-4 ">
                                 <a href="#" class="bnt btn_red btn-block btn_slider ">Узнать больше...</a> </div>
                         </div>
@@ -129,7 +160,8 @@
                                 <span class="slider__caption__subtext">обработки звонков <br>
               одновременно</span>
                             </div>
-                        </div><div class="row">
+                        </div>
+                        <div class="row">
                             <div class="col-md-4 col-md-offset-4 ">
                                 <a href="#" class="bnt btn_red btn-block btn_slider ">Узнать больше...</a> </div>
                         </div>
@@ -162,7 +194,7 @@
                     <a href="#" class="bnt red_section__btn_blue btn-block">Узнать больше...</a>
                 </div>
                 <div class="col-md-2 col-md-offset-2 col-sm-3 col-sm-offset-1 col-xs-4">
-                    <a href="#" data-toggle="modal" data-target="#myModal"><img class="call_back" src="assets/images/pop_up_back_call.png" alt=""></a>
+                    <a href="#" id="call" data-toggle="modal" data-target="#myModal"><img class="call_back" src="assets/images/pop_up_back_call.png" alt=""></a>
                 </div>
             </div>
         </div>
@@ -180,7 +212,7 @@
                         <img id="prev-sl-serv" class="service__carusel__control-left " src="assets/images/service/left.png" alt="">
                     </div>
                     <div class="col-md-10 col-sm-10 col-xs-10">
-                        <div id="service_carusel" class="your-class"> 
+                        <div id="service_carusel" class="your-class">
                             <div class="block_item">
                                 <img src="assets/images/service/set1/icon_1.png" alt="...">
                                 <span>Горячие линии со специалистами</span>
@@ -405,8 +437,8 @@
                         <h5>Меню</h5>
                         <ul>
                             <li><a href="">О компаниии</a></li>
-                            <li><a href="">Услуги</li>
-                           <li><a href="">Аренда операторов</a></li>
+                            <li><a href="">Услуги</a></li>
+                            <li><a href="">Аренда операторов</a></li>
                             <li><a href="">Карьера</a></li>
                             <li><a href="">Контакты</a></li>
                         </ul>
@@ -469,40 +501,66 @@
             </div>
         </div>
     </section>
-
-   <section>
-  <div class="modal fade " id="myModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
-  <div class="modal-dialog ">
-    <div class="modal-content">
-<div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Обратный звонок</h4>
-      </div>
-      <div class="modal-body">
-      
-    
-           <form >
-               <label for="exampleInputEmail1">Название компании*</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email"> 
-
-           </form>  ...
-      </div>
-      
-
+    <div class="modal fade modal-form" id="myModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+        <div class="modal-dialog ">
+            <div class="modal-content modal-form__content">
+                <div class="modal-header ">
+                    <button type="button" id="myClose" class="close bnt-close" data-dismiss="modal" data-target="#myModal">&times;</button>
+                    <h4 class="modal-title modal-form__title " id="myModalLabel">Обратный звонок</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="cotainer">
+                        <form>
+                            <div class="row">
+                                <label class="col-sm-6 control-label">Тема</label>
+                                <div class="col-sm-6">
+                                    <select type="text" class="form-control" id="">
+                                        <option>Выбери тему</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label  class="col-sm-6 control-label">ФИО</label>
+                                <div class="col-sm-6">
+                                    <input type="email" class="form-control" id="">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label  class="col-sm-6 control-label">Контакный телефон</label>
+                                <div class="col-sm-6">
+                                    <input type="email" class="form-control" id="">
+                                </div>
+                            </div>
+                    
+                    <div class="row">
+                        <label  class="col-sm-6 control-label">Сообщение</label>
+                        <div class="col-sm-6 ">
+                            <textarea type="email" class="form-control" id="s" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4 col-sm-offset-4">
+                            <button class="btn btn-block modal-form__btn"> отправить</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-10 col-sm-offset-1">
+                            <p>Или Вы можете задать вопрос по e-mail: <a href="in@ihl.ru">in@ihl.ru</a> </p>
+                        </div>
+                    </div>
+                    </form>
+                </div></div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
-    </section>
-
-
-
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    </div>
+    </div>
     <script src="assets/scripts/script.js"></script>
     <script type="text/javascript">
-$('#myModal').on('shown.bs.modal', function () {
-  
-})
-
     $(document).ready(function() {
 
         $('#service_carusel').slick({
@@ -540,43 +598,43 @@ $('#myModal').on('shown.bs.modal', function () {
                 // instead of a settings object
             ]
         });
-    
-
-    $('#client__carusel').slick({
-    infinite: true,
-    speed: 300,
-    slidesToShow: 5,
-    slidesToScroll: 1,
-    prevArrow: "#prev-sl",
-    nextArrow: "#next-sl",
 
 
-    responsive: [{
-            breakpoint: 992,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 1,
-                infinite: true
+        $('#client__carusel').slick({
+            infinite: true,
+            speed: 300,
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            prevArrow: "#prev-sl",
+            nextArrow: "#next-sl",
 
-            }
-        }, {
-            breakpoint: 768,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 1
-            }
-        }, {
-            breakpoint: 480,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
-    ]
-    });
+
+            responsive: [{
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        infinite: true
+
+                    }
+                }, {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                }, {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
     });
     </script>
     <!--   // <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> -->

@@ -8093,11 +8093,23 @@ button.close {
 
 .menu {
   min-height: 150px; }
+  @media (min-width: 480px) {
+    .menu {
+      margin-top: 100px; } }
+  @media (min-width: 768px) {
+    .menu {
+      margin-top: 86px; } }
+  @media (min-width: 992px) {
+    .menu {
+      margin-top: 65px; } }
+  @media (min-width: 1200px) {
+    .menu {
+      margin-top: 30px; } }
   .menu .navbar-collapse-custom .navbar-nav-custom {
     margin-top: 50px; }
     .menu .navbar-collapse-custom .navbar-nav-custom li a {
-      padding-left: 10px;
-      padding-right: 10px;
+      padding-left: 9px;
+      padding-right: 9px;
       font-family: 'Lato';
       font-weight: 400;
       font-style: normal;
@@ -8554,3 +8566,125 @@ body {
 .box_6 {
   background: url("../images/our_advantages/foto6.jpg") right center no-repeat;
   background-size: cover; }
+
+.modal-form .modal-form__content {
+  padding-left: 50px;
+  padding-right: 50px; }
+
+.modal-form .modal-header {
+  border-bottom: 0px; }
+
+.modal-form .modal-form__title {
+  text-transform: uppercase;
+  font-family: 'Lato';
+  font-weight: 200;
+  font-style: normal;
+  font-size: 30px;
+  color: #e03636;
+  text-align: center; }
+
+.modal-form input {
+  margin-top: 20px; }
+
+.modal-form select {
+  margin-top: 20px;
+  font-family: 'Lato';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px; }
+
+.modal-form label {
+  margin-top: 20px;
+  font-family: 'Lato';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: #000; }
+
+.modal-form textarea {
+  margin-top: 20px;
+  font-family: 'Lato';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px; }
+
+.modal-form .modal-form__btn {
+  background: #2771b2;
+  color: #fff; }
+
+.modal-form button {
+  margin-top: 50px;
+  font-family: 'Lato';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px; }
+
+.modal-form p {
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Lato';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px; }
+  .modal-form p a {
+    text-decoration: underline;
+    color: #e03636; }
+
+.modal-form .bnt-close {
+  position: absolute;
+  font-size: 40px;
+  top: 0;
+  right: 8px;
+  color: #000; }
+
+.search input {
+  outline: none;
+  border: 0px; }
+
+.search input[type=search] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  font-family: inherit;
+  font-size: 100%; }
+
+.search input::-webkit-search-decoration,
+.search input::-webkit-search-cancel-button {
+  display: none;
+  /* remove the search and cancel icon */ }
+
+.search input[type=search] {
+  background: #fff url(../images/icons/search-icon.png) no-repeat 9px center;
+  padding: 2px 10px 5px 32px;
+  width: 55px;
+  -webkit-border-radius: 10em;
+  -moz-border-radius: 10em;
+  border-radius: 10em;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s; }
+
+.search input[type=search]:focus {
+  width: 80px;
+  background-color: #fff; }
+
+#demo-b input[type=search] {
+  width: 18px;
+  padding-left: 10px;
+  color: transparent;
+  cursor: pointer; }
+
+#demo-b input[type=search]:hover {
+  background-color: #fff; }
+
+#demo-b input[type=search]:focus {
+  width: 80px;
+  padding-left: 32px;
+  color: #000;
+  background-color: #fff;
+  cursor: auto; }
+
+#demo-b input:-moz-placeholder {
+  color: transparent; }
+
+#demo-b input::-webkit-input-placeholder {
+  color: transparent; }
