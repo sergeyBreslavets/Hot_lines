@@ -67,5 +67,15 @@ $icon-font-path: '../fonts/bootstrap/' !default;
 @import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
 @import "bower_components/slick-carousel/slick/slick.scss";
 
-@import "_menu_and_top_menu";
 @import "_modules";
+@import "_menu_and_top_menu";
+@import "_slider";
+@import "_action";
+@import "_service";
+@import "_our_advantages";
+@import "_client";
+@import "_call_back_form";
+@import "_footer";
+
+@import "_modal_form";
+
