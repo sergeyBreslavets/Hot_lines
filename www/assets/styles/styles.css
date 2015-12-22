@@ -8119,6 +8119,99 @@ body {
   .title_size {
     font-size: 50px; } }
 
+.home_img {
+  background: url(../images/home_img.jpg) no-repeat;
+  height: 300px; }
+
+.about_us .breadcrumb {
+  background: #fff;
+  font-family: 'Lato';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px; }
+  .about_us .breadcrumb li {
+    color: #000; }
+    .about_us .breadcrumb li a {
+      color: #000;
+      text-decoration: none; }
+      .about_us .breadcrumb li a:hover {
+        color: #e03636; }
+  .about_us .breadcrumb .active:before {
+    content: "> "; }
+
+.about_us .about_us__title {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Lato';
+  font-weight: 200;
+  font-style: normal;
+  color: #e03636; }
+
+.about_us .about_us__text {
+  font-family: 'Lato';
+  font-weight: 400;
+  font-style: normal; }
+  .about_us .about_us__text h4 {
+    margin-top: 40px;
+    font-size: 18px;
+    color: #2771b2; }
+  .about_us .about_us__text h5 {
+    margin-top: 40px;
+    font-size: 16px;
+    color: #2771b2; }
+  .about_us .about_us__text p {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #000; }
+
+.histori {
+  background: #e03636; }
+  .histori .histori__title {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Lato';
+    font-weight: 200;
+    font-style: normal;
+    color: #FFF; }
+  .histori .histori__control {
+    margin-top: 40px;
+    margin-bottom: 56px;
+    padding-bottom: 1px; }
+    .histori .histori__control .histori__control__band {
+      background: #fff;
+      background: #fff;
+      height: 2px;
+      width: 36%;
+      left: 140px;
+      position: absolute;
+      top: 19px;
+      z-index: 2; }
+    .histori .histori__control .histori__control__year-hover {
+      z-index: 5;
+      border-radius: 50%;
+      border: 1px solid transparent;
+      padding-top: 60px;
+      padding-bottom: 47px;
+      padding-left: 4px;
+      padding-right: 4px; }
+      .histori .histori__control .histori__control__year-hover:hover {
+        border: 1px solid #fff; }
+        .histori .histori__control .histori__control__year-hover:hover .histori__control__year {
+          border: 1px solid #fff;
+          background: #2771b2; }
+      .histori .histori__control .histori__control__year-hover .histori__control__year {
+        z-index: 5;
+        margin: 5px;
+        text-align: center;
+        background: #fff;
+        border-radius: 50%;
+        padding: 34px 17px;
+        font-size: 30px;
+        font-family: 'Lato';
+        font-weight: 200;
+        font-style: normal;
+        border: 1px solid transparent; }
+
 .menu_top {
   background: #2d4059;
   color: #ffffff;
@@ -8140,7 +8233,8 @@ body {
       height: 32px; }
 
 .menu {
-  height: 150px; }
+  height: 150px;
+  z-index: 999; }
   @media (min-width: 480px) {
     .menu {
       top: 65px; } }
@@ -8155,12 +8249,23 @@ body {
       top: 30px; } }
   .menu .navbar-toggle {
     margin-top: 40px; }
+  .menu .navbar-collapse {
+    background-color: #fff; }
+    @media (min-width: 768px) {
+      .menu .navbar-collapse {
+        background-color: #fff; } }
+    @media (min-width: 992px) {
+      .menu .navbar-collapse {
+        background-color: transparent; } }
+    @media (min-width: 1200px) {
+      .menu .navbar-collapse {
+        background-color: transparent; } }
   @media (min-width: 480px) {
     .menu .navbar-collapse-custom {
-      background: rgba(255, 255, 255, 0.5); } }
+      background-color: #fff; } }
   @media (min-width: 768px) {
     .menu .navbar-collapse-custom {
-      background: rgba(255, 255, 255, 0.5); } }
+      background-color: #fff; } }
   @media (min-width: 992px) {
     .menu .navbar-collapse-custom {
       background: transparent; } }

@@ -40,3 +40,123 @@ body {
         font-size: 50px;
     }
 }
+
+
+.home_img{
+  background: url(../images/home_img.jpg) no-repeat;
+  height: 300px;
+
+
+}  
+
+.about_us{
+  .breadcrumb{
+    background: #fff;
+    font-family: 'Lato';
+      font-weight: 400;
+      font-style: normal;
+      font-size: 14px;
+      li{
+        color: #000;
+
+        a{
+          color: #000;
+          text-decoration: none;
+          &:hover{
+            color:  #e03636;
+          }
+        }
+      }
+      .active{
+        &:before{
+          content: "> "
+        }
+      }
+  }
+.about_us__title{
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Lato';
+        font-weight: 200;
+        font-style: normal;
+        color: #e03636;
+  }
+  .about_us__text {
+      font-family: 'Lato';
+      font-weight: 400;
+      font-style: normal;
+            
+    h4{
+      margin-top: 40px;
+font-size: 18px;
+color: #2771b2;
+    }
+    h5{
+       margin-top: 40px;
+    font-size: 16px;
+    color: #2771b2;
+    }
+    p{
+      margin-top: 40px;
+font-size: 14px;
+color: #000;
+    }
+  }
+}
+.histori{
+  background: #e03636; 
+  .histori__title{
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Lato';
+        font-weight: 200;
+        font-style: normal;
+        color: #FFF;
+  }
+  .histori__control{
+    margin-top: 40px;
+    margin-bottom: 56px;
+    padding-bottom: 1px;
+
+  .histori__control__band{
+    background: #fff;
+    background: #fff;
+    height: 2px;
+   width: 36%;
+    left: 140px;
+    position: absolute;
+    top: 19px;
+   z-index: 2;
+  }
+  .histori__control__year-hover{
+    z-index: 5;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    padding-top: 60px;
+    padding-bottom: 47px;
+    padding-left: 4px;
+    padding-right: 4px;   
+    &:hover{
+    
+      border: 1px solid #fff;
+       .histori__control__year{
+      border: 1px solid #fff;
+      background: #2771b2;
+       }
+     }
+  .histori__control__year{
+    z-index: 5;
+    margin: 5px;
+    text-align: center;
+    background: #fff;
+    border-radius: 50%;
+    padding: 34px 17px;
+    font-size: 30px;
+    font-family: 'Lato';
+    font-weight: 200;
+    font-style: normal;
+    border: 1px solid transparent;
+       
+  }
+   }}
+}

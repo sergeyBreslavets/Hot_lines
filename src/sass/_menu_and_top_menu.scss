@@ -24,13 +24,16 @@
     }
     
     .menu {
+
         height: 150px;
-        
+        z-index: 999;
          @media (min-width: $screen-xs-min) {
               top: 65px;
+
             }
             @media (min-width: $screen-sm-min) {
                 top: 65px;
+              
             }
             @media (min-width: $screen-md-min) {
                top: 30px;
@@ -41,12 +44,42 @@
         .navbar-toggle {
             margin-top: 40px;
         }
+     
+       
+
+
+        .navbar-collapse{
+                background-color: #fff ;
+            
+            @media (min-width: $screen-sm-min) {
+                   background-color: #fff;
+            }
+           @media (min-width: $screen-md-min) {
+                background-color: transparent;
+            }
+            @media (min-width: $screen-lg-min) {
+                background-color: transparent;
+            }
+        }
+
+// .navbar-collapse-custom-min{ 
+//      .navbar-nav-custom { 
+//         li{
+//         &:hover{
+//             background-color: #fcfcfc;
+//         }
+//     }
+// }
+
+
+
         .navbar-collapse-custom {
+
             @media (min-width: $screen-xs-min) {
-                background: rgba(255, 255, 255, .5);
+                background-color: #fff;
             }
             @media (min-width: $screen-sm-min) {
-                background: rgba(255, 255, 255, .5);
+                background-color: #fff;
             }
             @media (min-width: $screen-md-min) {
                 background: transparent;
@@ -54,16 +87,14 @@
             @media (min-width: $screen-lg-min) {
                 background: transparent;
             }
+
             .navbar-nav-custom {
                 margin-top: 50px;
                 .dropdown-menu {
                     background-color: #fff;
                 }
                 li {
-                    // background: transparent;
-                    // &:hover{
-                    // background: transparent;
-                    // }
+                    
                     a {
                         padding-left: 9px;
                         padding-right: 9px;
