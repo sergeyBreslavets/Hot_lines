@@ -8181,19 +8181,16 @@ body {
       background: #fff;
       background: #fff;
       height: 2px;
-      width: 36%;
-      left: 140px;
+      width: 30px;
+      left: 180px;
       position: absolute;
-      top: 19px;
-      z-index: 2; }
+      top: 75px; }
     .histori .histori__control .histori__control__year-hover {
       z-index: 5;
       border-radius: 50%;
       border: 1px solid transparent;
-      padding-top: 60px;
-      padding-bottom: 47px;
-      padding-left: 4px;
-      padding-right: 4px; }
+      padding: 5px;
+      display: inline-block; }
       .histori .histori__control .histori__control__year-hover:hover {
         border: 1px solid #fff; }
         .histori .histori__control .histori__control__year-hover:hover .histori__control__year {
@@ -8201,16 +8198,135 @@ body {
           background: #2771b2; }
       .histori .histori__control .histori__control__year-hover .histori__control__year {
         z-index: 5;
-        margin: 5px;
         text-align: center;
         background: #fff;
         border-radius: 50%;
-        padding: 34px 17px;
+        padding: 25px 10px;
+        display: inline-block;
         font-size: 30px;
         font-family: 'Lato';
         font-weight: 200;
         font-style: normal;
         border: 1px solid transparent; }
+  .histori .histori__slider {
+    margin-top: 60px; }
+    .histori .histori__slider .histori__slider__item h6 {
+      font-family: 'Lato';
+      font-weight: 400;
+      font-style: normal;
+      font-size: 16px;
+      color: #fff; }
+    .histori .histori__slider .histori__slider__item p {
+      font-family: 'Lato';
+      font-weight: 400;
+      font-style: normal;
+      font-size: 13px;
+      color: #fff;
+      margin-top: 30px; }
+    .histori .histori__slider .histori__slider__item .pt-25 {
+      padding-top: 25px; }
+    .histori .histori__slider .histori__slider__item .histori__slider__img {
+      width: 100%; }
+
+.contact_in_mos_img {
+  background: url(../images/back_contact_moscov.jpg) no-repeat;
+  height: 300px; }
+
+.map_contact {
+  padding-bottom: 15px; }
+  .map_contact .breadcrumb {
+    background: #fff;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px; }
+    .map_contact .breadcrumb li {
+      color: #000; }
+      .map_contact .breadcrumb li a {
+        color: #000;
+        text-decoration: none; }
+        .map_contact .breadcrumb li a:hover {
+          color: #e03636; }
+    .map_contact .breadcrumb li:first-child:before {
+      content: " "; }
+    .map_contact .breadcrumb li:before {
+      content: "> "; }
+    .map_contact .breadcrumb .active:before {
+      content: "> "; }
+  .map_contact .map_contact__title {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Lato';
+    font-weight: 200;
+    font-style: normal;
+    color: #e03636; }
+  .map_contact .map_contact__title_contact {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #2771b2;
+    float: left;
+    text-transform: uppercase; }
+  .map_contact .map_contact__contacts {
+    margin-top: 10px;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11px;
+    color: #818182; }
+    .map_contact .map_contact__contacts i {
+      color: #2771b2;
+      font-size: 37px; }
+    .map_contact .map_contact__contacts div:first-child {
+      float: left;
+      margin-right: 20px; }
+    .map_contact .map_contact__contacts div {
+      display: inline; }
+
+.feedback {
+  background: url(../images/back_contact_moscov_feedback.jpg);
+  padding-bottom: 15px; }
+  .feedback .feedback__title {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Lato';
+    font-weight: 200;
+    font-style: normal;
+    color: #fff; }
+  .feedback label {
+    margin-top: 10px;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11px;
+    color: #fff; }
+  .feedback .feedback__btn {
+    margin-top: 15px;
+    margin-bottom: 10px; }
+
+.call_position {
+  position: relative; }
+
+.call_back_footer {
+  position: absolute;
+  width: 37%; }
+  @media (min-width: 480px) {
+    .call_back_footer {
+      bottom: -46px;
+      width: 26%; } }
+  @media (min-width: 768px) {
+    .call_back_footer {
+      bottom: -44px;
+      width: 50%; } }
+  @media (min-width: 992px) {
+    .call_back_footer {
+      bottom: -15px;
+      width: 55%; } }
+  @media (min-width: 1200px) {
+    .call_back_footer {
+      bottom: -15px;
+      width: 55%; } }
 
 .menu_top {
   background: #2d4059;
@@ -8485,7 +8601,7 @@ body {
     border: 1px solid #fff;
     text-transform: uppercase;
     font-size: 14px;
-    padding: 20px 20px;
+    padding: 10px 20px;
     text-align: center;
     color: #fff; }
     .action .action__btn_blue:hover {
@@ -8716,7 +8832,7 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
-  padding: 20px 20px;
+  padding: 10px 20px;
   text-align: center;
   color: #fff; }
   .btn_blue:hover {
