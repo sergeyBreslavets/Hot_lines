@@ -8123,166 +8123,9 @@ body {
   background: url(../images/home_img.jpg) no-repeat;
   height: 300px; }
 
-.about_us .breadcrumb {
-  background: #fff;
-  font-family: 'Lato';
-  font-weight: 400;
-  font-style: normal;
-  font-size: 14px; }
-  .about_us .breadcrumb li {
-    color: #000; }
-    .about_us .breadcrumb li a {
-      color: #000;
-      text-decoration: none; }
-      .about_us .breadcrumb li a:hover {
-        color: #e03636; }
-  .about_us .breadcrumb .active:before {
-    content: "> "; }
-
-.about_us .about_us__title {
-  text-align: center;
-  text-transform: uppercase;
-  font-family: 'Lato';
-  font-weight: 200;
-  font-style: normal;
-  color: #e03636; }
-
-.about_us .about_us__text {
-  font-family: 'Lato';
-  font-weight: 400;
-  font-style: normal; }
-  .about_us .about_us__text h4 {
-    margin-top: 40px;
-    font-size: 18px;
-    color: #2771b2; }
-  .about_us .about_us__text h5 {
-    margin-top: 40px;
-    font-size: 16px;
-    color: #2771b2; }
-  .about_us .about_us__text p {
-    margin-top: 40px;
-    font-size: 14px;
-    color: #000; }
-
-.histori {
-  background: #e03636; }
-  .histori .histori__title {
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Lato';
-    font-weight: 200;
-    font-style: normal;
-    color: #FFF; }
-  .histori .histori__control {
-    margin-top: 40px;
-    margin-bottom: 56px;
-    padding-bottom: 1px; }
-    .histori .histori__control .histori__control__band {
-      background: #fff;
-      background: #fff;
-      height: 2px;
-      width: 30px;
-      left: 180px;
-      position: absolute;
-      top: 75px; }
-    .histori .histori__control .histori__control__year-hover {
-      z-index: 5;
-      border-radius: 50%;
-      border: 1px solid transparent;
-      padding: 5px;
-      display: inline-block; }
-      .histori .histori__control .histori__control__year-hover:hover {
-        border: 1px solid #fff; }
-        .histori .histori__control .histori__control__year-hover:hover .histori__control__year {
-          border: 1px solid #fff;
-          background: #2771b2; }
-      .histori .histori__control .histori__control__year-hover .histori__control__year {
-        z-index: 5;
-        text-align: center;
-        background: #fff;
-        border-radius: 50%;
-        padding: 25px 10px;
-        display: inline-block;
-        font-size: 30px;
-        font-family: 'Lato';
-        font-weight: 200;
-        font-style: normal;
-        border: 1px solid transparent; }
-  .histori .histori__slider {
-    margin-top: 60px; }
-    .histori .histori__slider .histori__slider__item h6 {
-      font-family: 'Lato';
-      font-weight: 400;
-      font-style: normal;
-      font-size: 16px;
-      color: #fff; }
-    .histori .histori__slider .histori__slider__item p {
-      font-family: 'Lato';
-      font-weight: 400;
-      font-style: normal;
-      font-size: 13px;
-      color: #fff;
-      margin-top: 30px; }
-    .histori .histori__slider .histori__slider__item .pt-25 {
-      padding-top: 25px; }
-    .histori .histori__slider .histori__slider__item .histori__slider__img {
-      width: 100%; }
-
 .contact_in_mos_img {
   background: url(../images/back_contact_moscov.jpg) no-repeat;
   height: 300px; }
-
-.map_contact {
-  padding-bottom: 15px; }
-  .map_contact .breadcrumb {
-    background: #fff;
-    font-family: 'Lato';
-    font-weight: 400;
-    font-style: normal;
-    font-size: 14px; }
-    .map_contact .breadcrumb li {
-      color: #000; }
-      .map_contact .breadcrumb li a {
-        color: #000;
-        text-decoration: none; }
-        .map_contact .breadcrumb li a:hover {
-          color: #e03636; }
-    .map_contact .breadcrumb li:first-child:before {
-      content: " "; }
-    .map_contact .breadcrumb li:before {
-      content: "> "; }
-    .map_contact .breadcrumb .active:before {
-      content: "> "; }
-  .map_contact .map_contact__title {
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Lato';
-    font-weight: 200;
-    font-style: normal;
-    color: #e03636; }
-  .map_contact .map_contact__title_contact {
-    font-family: 'Lato';
-    font-weight: 400;
-    font-style: normal;
-    font-size: 20px;
-    color: #2771b2;
-    float: left;
-    text-transform: uppercase; }
-  .map_contact .map_contact__contacts {
-    margin-top: 10px;
-    font-family: 'Lato';
-    font-weight: 400;
-    font-style: normal;
-    font-size: 11px;
-    color: #818182; }
-    .map_contact .map_contact__contacts i {
-      color: #2771b2;
-      font-size: 37px; }
-    .map_contact .map_contact__contacts div:first-child {
-      float: left;
-      margin-right: 20px; }
-    .map_contact .map_contact__contacts div {
-      display: inline; }
 
 .feedback {
   background: url(../images/back_contact_moscov_feedback.jpg);
@@ -8887,6 +8730,166 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: 12px; }
+
+.about_us .breadcrumb {
+  background: #fff;
+  font-family: 'Lato';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px; }
+  .about_us .breadcrumb li {
+    color: #000; }
+    .about_us .breadcrumb li a {
+      color: #000;
+      text-decoration: none; }
+      .about_us .breadcrumb li a:hover {
+        color: #e03636; }
+  .about_us .breadcrumb .active:before {
+    content: "> "; }
+
+.about_us .about_us__title {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Lato';
+  font-weight: 200;
+  font-style: normal;
+  color: #e03636; }
+
+.about_us .about_us__text {
+  font-family: 'Lato';
+  font-weight: 400;
+  font-style: normal; }
+  .about_us .about_us__text h4 {
+    margin-top: 40px;
+    font-size: 18px;
+    color: #2771b2; }
+  .about_us .about_us__text h5 {
+    margin-top: 40px;
+    font-size: 16px;
+    color: #2771b2; }
+  .about_us .about_us__text p {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #000; }
+
+.histori {
+  background: #e03636;
+  z-index: 0; }
+  .histori .histori__title {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Lato';
+    font-weight: 200;
+    font-style: normal;
+    color: #FFF; }
+  .histori .histori__control {
+    margin-top: 40px;
+    margin-bottom: 56px;
+    padding-bottom: 1px; }
+    .histori .histori__control .histori__control__band {
+      background: #fff;
+      background: #fff;
+      height: 2px;
+      width: 30px;
+      left: 180px;
+      position: absolute;
+      top: 75px;
+      z-index: 1 !important; }
+    .histori .histori__control .histori__control__year-hover {
+      z-index: 5 !important;
+      border-radius: 50%;
+      border: 1px solid transparent;
+      padding: 5px;
+      display: inline-block; }
+      .histori .histori__control .histori__control__year-hover:hover {
+        z-index: 5 !important;
+        border: 1px solid #fff; }
+        .histori .histori__control .histori__control__year-hover:hover .histori__control__year {
+          border: 1px solid #fff;
+          background: #2771b2; }
+      .histori .histori__control .histori__control__year-hover .histori__control__year {
+        z-index: 5 !important;
+        text-align: center;
+        background: #fff;
+        border-radius: 50%;
+        padding: 25px 10px;
+        display: inline-block;
+        font-size: 30px;
+        font-family: 'Lato';
+        font-weight: 200;
+        font-style: normal;
+        border: 1px solid transparent; }
+  .histori .histori__slider {
+    margin-top: 60px; }
+    .histori .histori__slider .histori__slider__item h6 {
+      font-family: 'Lato';
+      font-weight: 400;
+      font-style: normal;
+      font-size: 16px;
+      color: #fff; }
+    .histori .histori__slider .histori__slider__item p {
+      font-family: 'Lato';
+      font-weight: 400;
+      font-style: normal;
+      font-size: 13px;
+      color: #fff;
+      margin-top: 30px; }
+    .histori .histori__slider .histori__slider__item .pt-25 {
+      padding-top: 25px; }
+    .histori .histori__slider .histori__slider__item .histori__slider__img {
+      width: 100%; }
+
+.map_contact {
+  padding-bottom: 15px; }
+  .map_contact .breadcrumb {
+    background: #fff;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px; }
+    .map_contact .breadcrumb li {
+      color: #000; }
+      .map_contact .breadcrumb li a {
+        color: #000;
+        text-decoration: none; }
+        .map_contact .breadcrumb li a:hover {
+          color: #e03636; }
+    .map_contact .breadcrumb li:first-child:before {
+      content: " "; }
+    .map_contact .breadcrumb li:before {
+      content: "> "; }
+    .map_contact .breadcrumb .active:before {
+      content: "> "; }
+  .map_contact .map_contact__title {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Lato';
+    font-weight: 200;
+    font-style: normal;
+    color: #e03636; }
+  .map_contact .map_contact__title_contact {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #2771b2;
+    float: left;
+    text-transform: uppercase; }
+  .map_contact .map_contact__contacts {
+    margin-top: 10px;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11px;
+    color: #818182; }
+    .map_contact .map_contact__contacts i {
+      color: #2771b2;
+      font-size: 37px; }
+    .map_contact .map_contact__contacts div:first-child {
+      float: left;
+      margin-right: 20px; }
+    .map_contact .map_contact__contacts div {
+      display: inline; }
 
 .modal-form .modal-form__content {
   padding-left: 50px;

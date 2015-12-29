@@ -1,0 +1,87 @@
+.histori {
+    background: #e03636;
+    z-index: 0;
+    .histori__title {
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Lato';
+        font-weight: 200;
+        font-style: normal;
+        color: #FFF;
+    }
+    .histori__control {
+        margin-top: 40px;
+        margin-bottom: 56px;
+        padding-bottom: 1px;
+        .histori__control__band {
+            background: #fff;
+            background: #fff;
+            height: 2px;
+          width: 30px;
+          left: 180px;
+            position: absolute;
+            top: 75px;
+            z-index: 1 !important;
+           
+        } 
+        .histori__control__year-hover {
+            z-index: 5 !important;
+            border-radius: 50%;
+            border: 1px solid transparent;
+            padding: 5px;
+            display: inline-block;
+            &:hover {
+              z-index: 5 !important;
+                border: 1px solid #fff;
+                .histori__control__year {
+                    border: 1px solid #fff;
+                    background: #2771b2;
+                }
+            }
+            .histori__control__year {
+                z-index: 5 !important;
+                
+                text-align: center;
+                background: #fff;
+                border-radius: 50%;
+                padding: 25px 10px;
+                display: inline-block;
+                font-size: 30px;
+                font-family: 'Lato';
+                font-weight: 200;
+                font-style: normal;
+                border: 1px solid transparent;
+            }
+        }
+    }
+    
+    .histori__slider {
+      margin-top: 60px;
+      
+        .histori__slider__item {
+             h6{
+            font-family: 'Lato';
+            font-weight: 400;
+            font-style: normal;
+            font-size: 16px;
+            color: #fff;
+             }
+             p{
+            font-family: 'Lato';
+            font-weight: 400;
+            font-style: normal;
+            font-size: 13px;
+            color: #fff;
+            margin-top: 30px;
+             }
+             .pt-25{
+              padding-top: 25px;
+             }
+             
+            .histori__slider__img {
+                width: 100%;
+
+            }
+        }
+    }
+}
