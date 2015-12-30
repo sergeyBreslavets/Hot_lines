@@ -1,6 +1,6 @@
 .histori {
     background: #e03636;
-    z-index: 0;
+ 
     .histori__title {
         text-align: center;
         text-transform: uppercase;
@@ -10,9 +10,11 @@
         color: #FFF;
     }
     .histori__control {
+        position: relative;
         margin-top: 40px;
         margin-bottom: 56px;
         padding-bottom: 1px;
+     
         .histori__control__band {
             background: #fff;
             background: #fff;
@@ -21,17 +23,18 @@
           left: 180px;
             position: absolute;
             top: 75px;
-            z-index: 1 !important;
+           
            
         } 
         .histori__control__year-hover {
-            z-index: 5 !important;
+            cursor: pointer;
+        
             border-radius: 50%;
             border: 1px solid transparent;
             padding: 5px;
             display: inline-block;
             &:hover {
-              z-index: 5 !important;
+             
                 border: 1px solid #fff;
                 .histori__control__year {
                     border: 1px solid #fff;
@@ -39,7 +42,7 @@
                 }
             }
             .histori__control__year {
-                z-index: 5 !important;
+              
                 
                 text-align: center;
                 background: #fff;
@@ -84,4 +87,30 @@
             }
         }
     }
+}
+.band{
+    background: #fff;
+    position: absolute;
+    height: 2px;
+    width: 67%;
+    top: 54px;
+    
+     @media (min-width: $screen-xs-min) {
+       
+    }
+    @media (min-width: $screen-sm-min) {
+      left: 160px;
+    }
+    @media (min-width: $screen-md-min) {
+    left: 190px;
+    }
+    @media (min-width: $screen-lg-min) {
+        left: 190px;
+    }
+}
+.z2{
+    z-index: 2;
+}
+.z1{
+    z-index: 1;
 }

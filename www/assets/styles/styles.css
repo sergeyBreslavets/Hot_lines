@@ -8773,8 +8773,7 @@ body {
     color: #000; }
 
 .histori {
-  background: #e03636;
-  z-index: 0; }
+  background: #e03636; }
   .histori .histori__title {
     text-align: center;
     text-transform: uppercase;
@@ -8783,6 +8782,7 @@ body {
     font-style: normal;
     color: #FFF; }
   .histori .histori__control {
+    position: relative;
     margin-top: 40px;
     margin-bottom: 56px;
     padding-bottom: 1px; }
@@ -8793,22 +8793,19 @@ body {
       width: 30px;
       left: 180px;
       position: absolute;
-      top: 75px;
-      z-index: 1 !important; }
+      top: 75px; }
     .histori .histori__control .histori__control__year-hover {
-      z-index: 5 !important;
+      cursor: pointer;
       border-radius: 50%;
       border: 1px solid transparent;
       padding: 5px;
       display: inline-block; }
       .histori .histori__control .histori__control__year-hover:hover {
-        z-index: 5 !important;
         border: 1px solid #fff; }
         .histori .histori__control .histori__control__year-hover:hover .histori__control__year {
           border: 1px solid #fff;
           background: #2771b2; }
       .histori .histori__control .histori__control__year-hover .histori__control__year {
-        z-index: 5 !important;
         text-align: center;
         background: #fff;
         border-radius: 50%;
@@ -8839,6 +8836,28 @@ body {
     .histori .histori__slider .histori__slider__item .histori__slider__img {
       width: 100%; }
 
+.band {
+  background: #fff;
+  position: absolute;
+  height: 2px;
+  width: 67%;
+  top: 54px; }
+  @media (min-width: 768px) {
+    .band {
+      left: 160px; } }
+  @media (min-width: 992px) {
+    .band {
+      left: 190px; } }
+  @media (min-width: 1200px) {
+    .band {
+      left: 190px; } }
+
+.z2 {
+  z-index: 2; }
+
+.z1 {
+  z-index: 1; }
+
 .map_contact {
   padding-bottom: 15px; }
   .map_contact .breadcrumb {
@@ -8866,7 +8885,8 @@ body {
     font-family: 'Lato';
     font-weight: 200;
     font-style: normal;
-    color: #e03636; }
+    color: #e03636;
+    margin-bottom: 40px; }
   .map_contact .map_contact__title_contact {
     font-family: 'Lato';
     font-weight: 400;
