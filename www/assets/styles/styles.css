@@ -8398,7 +8398,8 @@ body {
     margin-top: 70px !important; } }
 
 .action {
-  background: url(../images/red_phone.jpg) no-repeat; }
+  background: url(../images/red_phone.jpg) no-repeat; 
+background-size: cover;}
   .action .action__title {
     text-align: center;
     text-transform: uppercase;
@@ -8646,6 +8647,7 @@ body {
 
 .call_back_form {
   background: url(../images/back_form.jpg) no-repeat;
+  background-size: cover;
   overflow: hidden; }
   .call_back_form .call_back_form__title {
     text-align: center;
