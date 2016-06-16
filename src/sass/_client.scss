@@ -13,16 +13,19 @@
         .client__carusel__control-left {
             cursor: pointer;
             margin-top: 65px;
+            display: block;
         }
         .client__carusel__control-right {
             cursor: pointer;
             float: right;
             margin-top: 65px;
+            display: block;
         }
         .block_item {
             display: inline-block;
             text-align: center;
             padding: 0 47px;
+                outline: none !important;
         }
     }
 }

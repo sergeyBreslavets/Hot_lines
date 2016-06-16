@@ -8,23 +8,31 @@
             font-weight: 400;
             font-style: normal;
             font-size: 13px;
+             @media (min-width: $screen-lg-min) { 
+             
+           font-size: 16px;
+      }
+
             span {
                 margin-left: 12px;
                 a{
                     color: #fff;
                     text-decoration: none;
+
                 }
             }
             img {
                 margin-top: 1px;
                 margin-bottom: 1px;
                 height: 32px;
+                margin-right: 5px;
             }
         }
     }
     
+    
     .menu {
-
+        
         height: 150px;
         z-index: 999;
          @media (min-width: $screen-xs-min) {
@@ -36,10 +44,10 @@
               
             }
             @media (min-width: $screen-md-min) {
-               top: 30px;
+               top: 40px;
             }
             @media (min-width: $screen-lg-min) {
-                top: 30px;
+                top: 40px;
             }
         .navbar-toggle {
             margin-top: 40px;
@@ -50,9 +58,12 @@
 
         .navbar-collapse{
                 background-color: #fff ;
-            
+            @media (max-width: $screen-xs-max) {
+                   text-align: right;
+            }
             @media (min-width: $screen-sm-min) {
                    background-color: #fff;
+                   text-align: right;
             }
            @media (min-width: $screen-md-min) {
                 background-color: transparent;
@@ -220,4 +231,10 @@
 
 #demo-b input::-webkit-input-placeholder {
     color: transparent;
+}
+
+
+
+.dropdown-menu {
+    max-width: 275px;
 }
